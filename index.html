@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delete your DearBuddy account</title>
+    <meta
+      name="description"
+      content="Request deletion of your DearBuddy account and associated data."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #1b1430;
+        --muted: #5d5670;
+        --paper: #fff6fb;
+        --wash: #f3e7ff;
+        --accent: #6d28d9;
+        --line: #e4d4f4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        color: var(--ink);
+        font-family: Outfit, sans-serif;
+        background:
+          radial-gradient(1200px 520px at 12% -10%, #f4d9ff 0%, transparent 55%),
+          radial-gradient(900px 480px at 110% 8%, #ffe4f2 0%, transparent 50%),
+          linear-gradient(180deg, var(--paper) 0%, #fff 72%);
+      }
+
+      main {
+        width: min(720px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 72px 0 96px;
+      }
+
+      .brand {
+        margin: 0 0 28px;
+        color: var(--accent);
+        font-family: Fraunces, serif;
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        line-height: 1;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        max-width: 14ch;
+        font-family: Fraunces, serif;
+        font-size: clamp(34px, 6vw, 52px);
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        line-height: 1.05;
+      }
+
+      .lede {
+        margin: 0 0 48px;
+        max-width: 38ch;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.55;
+      }
+
+      section + section {
+        margin-top: 40px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      p,
+      li {
+        color: var(--ink);
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      ol,
+      ul {
+        margin: 0;
+        padding-left: 1.15em;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      .cta {
+        display: inline-flex;
+        margin-top: 18px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer {
+        margin-top: 64px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="brand">DearBuddy</p>
+      <h1>Delete your account</h1>
+      <p class="lede">
+        You can remove your DearBuddy account and the data tied to it from the
+        app, or by emailing us.
+      </p>
+
+      <section>
+        <h2>In the app</h2>
+        <ol>
+          <li>Open DearBuddy and go to <strong>Profile</strong>.</li>
+          <li>Tap <strong>Delete Account</strong>.</li>
+          <li>Confirm the request.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>By email</h2>
+        <p>
+          If you no longer have the app, email
+          <a href="mailto:support@dearbuddy.io?subject=Delete%20my%20account"
+            >support@dearbuddy.io</a
+          >
+          with the subject <strong>Delete my account</strong>. Include the email
+          address on the account.
+        </p>
+        <a
+          class="cta"
+          href="mailto:support@dearbuddy.io?subject=Delete%20my%20account"
+          >Email a deletion request</a
+        >
+      </section>
+
+      <section>
+        <h2>What we delete</h2>
+        <p>
+          We delete your profile, account credentials, messages, goals,
+          check-ins, and other personal data associated with your account.
+          Limited records may be kept where we are legally required to do so,
+          such as payment or fraud-prevention records.
+        </p>
+      </section>
+
+      <section>
+        <h2>How long it takes</h2>
+        <p>
+          We process deletion requests within <strong>30 days</strong>. After
+          that, your account can no longer be used to sign in.
+        </p>
+      </section>
+
+      <footer>DearBuddy · Account deletion</footer>
+    </main>
+  </body>
+</html>
